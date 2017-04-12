@@ -1,1 +1,1 @@
-# NatureConservancyKaggleComp
+# Forest Detection DA2 project
