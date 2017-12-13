@@ -1,1 +1,5 @@
-# Forest Detection DA2 project
+# Forest Detection
+High resolution (1x1 meter) satellite images provide a level of detail that was unavailable in the past. This allows us to better classify regions of forest within a geographic area. Our goal was to improve the results of previous classification methods by using convolutional neural works and transfer learning of VGG16 (a CNN classified on ImageNet). We found that approaching this problem as an image classification problem by CNNs and looking at patches of the image, it performed better than methods that are solely pixel based. These results can be expanded to detect forest edges, which is useful in modeling Lyme disease. This repository contains a bunch of Jupyter Notebooks for:
+1. Training convolutional neural networks in Keras for binary image classification, using a dataset of forest and non-forest images.
+2. Making predictions using the trained networks stored as ".h5" files.
+3. See the [paper](https://github.com/meghendra/Forest-Detection-Paper-Spring-2017/raw/master/paper.pdf) for more details.
